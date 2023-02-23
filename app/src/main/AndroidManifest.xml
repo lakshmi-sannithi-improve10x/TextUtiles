@@ -12,19 +12,47 @@
         android:theme="@style/Theme.TextUtilies"
         tools:targetApi="31">
         <activity
-            android:name=".UppercaseActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:name=".ReplaceActivity"
+            android:exported="false" >
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".LastIndexOfActivity"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".IndexActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".EndsWithActivity"
+            android:exported="true" >
+
+
+
+        </activity>
+        <activity
+            android:name=".StartWithActivity"
+            android:exported="false" >
+
+
+        </activity>
+        <activity
+            android:name=".UppercaseActivity"
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
